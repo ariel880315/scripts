@@ -4,7 +4,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 ### Basic tools
 
-sudo apt-get install -y wget htop net-tools telnet vim screen software-properties-common apt-transport-https wget ca-certificates gnupg2 ubuntu-keyring curl lsb-release tilix git virt-manager neofetch dmidecode lshw hardinfo terminator guake filezilla
+sudo apt-get install -y wget htop net-tools telnet vim screen software-properties-common apt-transport-https wget ca-certificates gnupg2 ubuntu-keyring curl lsb-release tilix git virt-manager neofetch dmidecode lshw hardinfo terminator guake filezilla p7zip-full p7zip-rar rar
 
 ### Install Aditional Drivers
 # Software & Updates -> Select Additional Drivers tab -> here

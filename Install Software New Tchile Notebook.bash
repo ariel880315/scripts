@@ -168,6 +168,13 @@ sudo add-apt-repository -y ppa:linphone/release
 sudo apt-get update
 sudo apt-get install -y linphone
 
+### Install AnyDesk
+wget https://download.anydesk.com/linux/anydesk_6.2.1-1_amd64.deb
+sudo apt install -y $(pwd)/anydesk_6.2.1-1_amd64.deb
+
+### Install TeamViewer
+wget https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.40.8_amd64.deb
+sudo apt install -y $(pwd)/teamviewer_15.40.8_amd64.deb
 
 ##################
 ###	DESARROLLO ###

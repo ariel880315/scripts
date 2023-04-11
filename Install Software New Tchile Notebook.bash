@@ -139,10 +139,10 @@ wget https://dl.ganttproject.biz/ganttproject-3.2.3240/ganttproject_3.2.3240-1_a
 sudo apt install -y $(pwd)/ganttproject_3.2.3240-1_all.deb
 
 ### Install Dia (Similar a Microsoft Visio)
-sudo apt-get install dia
+sudo apt-get install -y dia
 
 ### Install Blender
-sudo apt install blender
+sudo apt install -y blender
 
 ### Install Spotify
 sudo snap install spotify
@@ -186,7 +186,7 @@ sudo snap install wordpress-desktop
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
-sudo apt update && sudo apt install code
+sudo apt update && sudo apt install -y code
 
 ### Install Docker
 sudo apt-get remove -y docker docker-engine docker.io containerd runc
